@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.dsp</groupId>
+  <artifactId>youdatax-dsp-v2025-catalog-service-transform</artifactId>
+  <version>0.0.3.0</version>
+  <name>yospace-dsp-catalog-transform-2025</name>
+  <description>yospace-dsp-catalog-transform-2025</description>
+  
+  <dependencies>
+<!--  
+    api(project(":spi:common:core-spi"))
+    api(project(":data-protocols:dsp:dsp-2025:dsp-spi-2025"))
+
+    implementation(project(":core:common:lib:transform-lib"))
+    implementation(project(":data-protocols:dsp:dsp-lib:dsp-catalog-lib:dsp-catalog-transform-lib"))
+
+    testImplementation(testFixtures(project(":core:common:lib:json-ld-lib")))
+-->  
+<!--    api(project(":spi:common:core-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+<!--    api(project(":data-protocols:dsp:dsp-2025:dsp-spi-2025"))-->
+      <dependency>
+        <groupId>com.yospace.dsp</groupId>
+        <artifactId>yospace-dsp-v2025-core-spi</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+<!--    implementation(project(":core:common:lib:transform-lib"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-lib-transform</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>    
+<!--    implementation(project(":data-protocols:dsp:dsp-lib:dsp-catalog-lib:dsp-catalog-transform-lib"))  -->
+      <dependency>
+        <groupId>com.yospace.dsp</groupId>
+        <artifactId>yospace-dsp-core-catalog-lib-transform</artifactId>   
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>  
+      
+<!--     testImplementation(testFixtures(project(":core:common:lib:json-ld-lib")))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>json-ld-lib</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>                
+   </dependencies> 
+</project>
