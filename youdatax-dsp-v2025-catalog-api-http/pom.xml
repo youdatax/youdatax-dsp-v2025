@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-v2025-catalog-api-http</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-dsp-catalog-http-api-2025</name>
   <description>yospace-dsp-catalog-http-api-2025</description>
   
