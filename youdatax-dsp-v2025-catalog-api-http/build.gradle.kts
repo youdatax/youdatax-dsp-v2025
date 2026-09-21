@@ -10,7 +10,7 @@
  *  Contributors:
  *       Metaform Systems, Inc. - initial API and implementation
  *       Cofinity-X - make DSP versions pluggable
- *
+ * \data-protocols\dsp\dsp-2025\dsp-catalog-2025\dsp-catalog-http-api-2025
  */
 
 plugins {
