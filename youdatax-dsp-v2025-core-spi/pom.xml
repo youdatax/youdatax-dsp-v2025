@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.dsp</groupId>
+  <artifactId>youdatax-dsp-v2025-core-spi</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <name>yospace-dsp-spi-2025</name>
+  <description>yospace-dsp-spi-2025</description>
+  
+  <dependencies>
+<!--    api(project(":data-protocols:dsp:dsp-spi"))-->
+      <dependency>
+        <groupId>com.yospace.dsp</groupId>
+        <artifactId>yospace-dsp-core-spi</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+<!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
+      <dependency>
+        <groupId>com.yospace.dsp</groupId>
+        <artifactId>yospace-dsp-core-spi-http</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>    
+<!--    implementation(project(":extensions:common:json-ld"))  -->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>json-ld</artifactId>
+        <version>0.18.0</version>
+      </dependency>  
+    </dependencies>    
+</project>
