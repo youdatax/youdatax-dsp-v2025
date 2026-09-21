@@ -79,13 +79,13 @@ jakarta-rsApi = { module = "jakarta.ws.rs:jakarta.ws.rs-api", version.ref = "rsA
       <dependency>
         <groupId>org.eclipse.edc</groupId>
         <artifactId>jersey-core</artifactId>
-        <version>0.15.1</version>
+        <version>0.18.0</version>
       </dependency>
 <!--    testImplementation(project(":core:common:junit"))-->
       <dependency>
         <groupId>org.eclipse.edc</groupId>
         <artifactId>junit</artifactId>
-        <version>0.15.1</version>
+        <version>0.18.0</version>
       </dependency>    
 <!--    testImplementation(libs.restAssured)
 restAssured = { module = "io.rest-assured:rest-assured", version.ref = "restAssured" }-->
