@@ -9,45 +9,45 @@
   <dependencies> 
 <!--    api(project(":data-protocols:dsp:dsp-spi"))-->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-core-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-spi</artifactId>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    api(project(":data-protocols:dsp:dsp-2025:dsp-spi-2025"))-->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-v2025-core-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-v2025-core-spi</artifactId>
+        <version>0.0.4-SNAPSHOT</version>
       </dependency>    
 <!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-core-spi-http</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-spi-http</artifactId>
+        <version>0.0.4.0</version>
       </dependency>    
 <!--    api(project(":spi:common:core-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-common</artifactId>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--    api(project(":spi:common:web-spi"))-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>web-spi</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-web</artifactId>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--    api(project(":spi:common:json-ld-spi"))-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>json-ld-spi</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-json-ld</artifactId>
+        <version>0.0.3.0</version>
       </dependency>
 <!--    api(project(":spi:control-plane:control-plane-spi"))-->
       <dependency>
-        <groupId>com.yospace.controlplane</groupId>
-        <artifactId>yospace-control-plane-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.controlp</groupId>
+        <artifactId>youdatax-control-plane-spi</artifactId>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    implementation(project(":extensions:common:http:lib:jersey-providers-lib"))-->
       <dependency>
@@ -57,15 +57,15 @@
       </dependency>    
 <!--    implementation(project(":data-protocols:dsp:dsp-lib:dsp-catalog-lib:dsp-catalog-validation-lib"))-->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-core-catalog-lib-validation</artifactId>  
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-catalog-lib-validation</artifactId>  
+        <version>0.0.4.0</version>
       </dependency>    
 <!--    implementation(project(":data-protocols:dsp:dsp-lib:dsp-catalog-lib:dsp-catalog-http-api-lib"))-->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-core-catalog-lib-http-api</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-catalog-lib-http-api</artifactId>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    implementation(libs.jakarta.rsApi)
 jakarta-rsApi = { module = "jakarta.ws.rs:jakarta.ws.rs-api", version.ref = "rsApi" }-->

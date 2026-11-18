@@ -9,21 +9,21 @@
   <dependencies>
 <!--    api(project(":data-protocols:dsp:dsp-spi"))-->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-core-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-spi</artifactId>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-core-spi-http</artifactId> 
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-spi-http</artifactId> 
+        <version>0.0.4.0</version>
       </dependency>    
-<!--    implementation(project(":extensions:common:json-ld"))  -->
+<!--    implementation(project(":extensions:common:json-ld"))  
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>json-ld</artifactId>
+        <groupId>org.youdatax.edc</groupId>
+        <artifactId>youdatax-core-json-ld</artifactId>
         <version>0.18.0</version>
-      </dependency>  
+      </dependency>  -->
     </dependencies>    
 </project>

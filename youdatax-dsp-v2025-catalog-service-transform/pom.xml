@@ -18,27 +18,27 @@
 -->  
 <!--    api(project(":spi:common:core-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-common</artifactId>
+        <version>0.0.3.0</version>
       </dependency>
 <!--    api(project(":data-protocols:dsp:dsp-2025:dsp-spi-2025"))-->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-v2025-core-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-v2025-core-spi</artifactId>
+        <version>0.0.4-SNAPSHOT</version>
       </dependency>
 <!--    implementation(project(":core:common:lib:transform-lib"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-lib-transform</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.common</groupId>
+        <artifactId>youdatax-common-lib-transform</artifactId>
+        <version>0.0.4.0</version>
       </dependency>    
 <!--    implementation(project(":data-protocols:dsp:dsp-lib:dsp-catalog-lib:dsp-catalog-transform-lib"))  -->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-core-catalog-lib-transform</artifactId>   
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-catalog-lib-transform</artifactId>    
+        <version>0.0.4.0</version>
       </dependency>  
       
 <!--     testImplementation(testFixtures(project(":core:common:lib:json-ld-lib")))-->
