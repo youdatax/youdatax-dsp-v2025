@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp2025-main-service-http-api-configuration</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4.0</version>
   <name>yospace-dsp-http-api-configuration-2025</name>
   <description>yospace-dsp-http-api-configuration-2025</description>
   
@@ -29,7 +29,7 @@
       <dependency>
         <groupId>org.youdatax.dsp</groupId>
         <artifactId>youdatax-dsp-v2025-core-spi</artifactId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.4.0</version>
       </dependency>    
 <!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
       <dependency>

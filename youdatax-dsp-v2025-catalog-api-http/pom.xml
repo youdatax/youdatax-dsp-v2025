@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-v2025-catalog-api-http</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4.0</version>
   <name>yospace-dsp-catalog-http-api-2025</name>
   <description>yospace-dsp-catalog-http-api-2025</description>
   
@@ -17,7 +17,7 @@
       <dependency>
         <groupId>org.youdatax.dsp</groupId>
         <artifactId>youdatax-dsp-v2025-core-spi</artifactId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.4.0</version>
       </dependency>    
 <!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
       <dependency>
@@ -53,7 +53,7 @@
       <dependency>
         <groupId>org.eclipse.edc</groupId>
         <artifactId>jersey-providers-lib</artifactId>
-        <version>0.15.1</version>
+        <version>0.18.0</version>
       </dependency>    
 <!--    implementation(project(":data-protocols:dsp:dsp-lib:dsp-catalog-lib:dsp-catalog-validation-lib"))-->
       <dependency>
